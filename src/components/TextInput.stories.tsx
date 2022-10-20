@@ -24,3 +24,9 @@ export const Default: StoryObj<TextInputRootProps> = {
     },
   },
 };
+
+export const WithotIcon: StoryObj<TextInputRootProps> = {
+  args: {
+    children: <TextInput.Input placeholder="Digite algo!" />,
+  },
+};
